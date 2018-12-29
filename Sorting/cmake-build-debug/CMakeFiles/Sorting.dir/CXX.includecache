@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alihasan/Documents/C++ Programs/CPlusPlus-DS-ALgo/Sorting/main.cpp
+iostream
+-
+string
+-
+string.h
+-
+vector
+-
+
