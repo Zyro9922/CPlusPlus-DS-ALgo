@@ -237,7 +237,7 @@ int main()
   freopen("output.txt","w",stdout);
   #endif
 
-  cout<<"Yo"<<endl;
+  cout<<"YOLO"<<endl;
 
   Graph<int> g;
 
