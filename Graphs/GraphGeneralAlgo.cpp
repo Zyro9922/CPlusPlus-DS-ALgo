@@ -1,3 +1,18 @@
+/*
+By Ali Hasan
+
+CONTENT
+
+#Generic Graph
+#Adding bidirectional edges to generic graph
+#Breadth First Search Prnt
+#Single Source Shortest Path using BFS
+#Depth First Search Print + Connected Components
+#DFS Topological Sort
+#BFS Cycle Detection
+#DFS Cycle Detection in Directed Graphs
+*/
+
 #include<bits/stdc++.h>
 
 using namespace std;
