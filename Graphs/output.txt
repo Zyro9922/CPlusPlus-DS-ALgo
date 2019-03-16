@@ -1,2 +1,13 @@
-YOLO
-Cycle from 3 to 41
+Agra->(Bhopal,2)(Delhi,1)
+Amritsar->(Delhi,1)(Jaipur,4)
+Bhopal->(Agra,2)(Mumbai,3)
+Delhi->(Amritsar,1)(Jaipur,2)(Agra,1)
+Jaipur->(Amritsar,4)(Delhi,2)(Mumbai,8)
+Mumbai->(Jaipur,8)(Bhopal,3)
+
+Distance of Mumbai from Amritsar = 7
+Distance of Delhi from Amritsar = 1
+Distance of Bhopal from Amritsar = 4
+Distance of Amritsar from Amritsar = 0
+Distance of Jaipur from Amritsar = 3
+Distance of Agra from Amritsar = 2
