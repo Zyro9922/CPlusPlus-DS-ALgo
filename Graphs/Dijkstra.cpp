@@ -1,6 +1,9 @@
 /*
 By Ali Hasan
 You can find Prateek bhaiya's code here https://ide.codingblocks.com/s/3059
+Best concept explanation (Abdul Bari) : https://www.youtube.com/watch?v=XB4MIexjvY0&t=479s
+Implementation explanation ( Coding Blocks ) : https://www.youtube.com/watch?v=NR4fpjuxnPA
+
 I know mine is kinds same (map X unordred_map) cause I saw his explanation then implemented and no way I was going to make the whole input
 
 CONTENT
@@ -110,28 +113,6 @@ int main()
 
   freopen("output.txt","w",stdout);
   #endif
-  // Graph<int> g;
-
-  // g.addEdge(0,1);
-  // g.addEdge(1,2);
-  // g.addEdge(0,4);
-  // g.addEdge(2,4);
-  // g.addEdge(2,3);
-  // g.addEdge(3,5);
-  // g.addEdge(3,4);
-
-  // g.addEdge(0,1);
-  // g.addEdge(1,2);
-  // g.addEdge(2,3);
-  // g.addEdge(3,4);
-  // g.addEdge(4,0);
-
-  // g.addEdge("P","Q");
-  // g.addEdge("Q","R");
-  // g.addEdge("R","S");
-  // g.addEdge("S","Q");
-
-  // g.addEdge("K","O");
   Graph<string> india;
   india.addEdge("Amritsar","Delhi",1);
   india.addEdge("Amritsar","Jaipur",4);
@@ -143,22 +124,5 @@ int main()
 
   india.printAdjList();
   india.dijkstraSSSP("Amritsar");
-// g. addEdge( "English" , "Programming Logic" , false);
-// g.addEdge( "Maths" , "Programming Logic " , false); 
-// g. addEdge( "Programming Logic " , "HTML " , false); 
-// g.addEdge( "Programming Logic " , "Python" , false); 
-// g.addEdge( "Programming Logic " , "Java " , false); 
-// g. addEdge( "Programming Logic", "JS",false);
-// g.addEdge( "Python" , "Web Dev" , false) ; 
-// g. addEdge( "HTML " , "CSS" , false); 
-// g. addEdge( "CSS" , "JS", false);
-//  g.addEdge(" JS" , "Web Dev" , false); 
-// g. addEdge( "Java", "web Dev" , false); 
-// g. addEdge( "Python", "Web Dev" , false);
-
-
-  // cout<<endl;
-  // g.printAdjList();
-
 
 }
