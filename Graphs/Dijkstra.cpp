@@ -21,7 +21,7 @@ using namespace std;
 template<typename T>
 class Graph{
 
-	map<T,list<pair<T,int>>> adjList;
+	unordered_map<T,list<pair<T,int>>> adjList;
 
 public:
 	Graph()
