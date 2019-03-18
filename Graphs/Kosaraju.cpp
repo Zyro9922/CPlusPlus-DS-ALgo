@@ -1,3 +1,14 @@
+/*
+By Ali Hasan
+
+CONTENTS
+#Generic graph
+#Printing weighted graph
+#Taking Transpose of Graph
+#Kosaraju's DFS Algorithm (DAMN EASY)
+
+Have Fun 
+*/
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -29,39 +40,6 @@ public:
 				cout<<vertex<<",";
 			cout<<endl;
 		}
-	}
-
-	void dfs(T src)
-	{
-		map<T,bool> visited;
-		dfsPrint(src,visited);
-
-		for(auto i : adjList)
-		{
-			if(visited[i.first] == false)
-				{
-					cout<<endl<<"Connected DFS"<<endl;
-					visited[i.first] = true;
-					dfsPrint(i.first,visited);
-				}
-		}
-
-	}
-
-	void dfsPrint(T src, map<T,bool> &visited)
-	{
-		visited[src] = true;
-		cout<<src<<" ";
-
-		for(T vertex:adjList[src])
-		{
-			if(!visited[vertex])
-			{
-				visited[vertex] = true;
-				dfsPrint(vertex,visited);
-			}
-		}
-
 	}
 
 	void graphTranspose(map<T,vector<T>> adjList1, map<T,vector<T>>& adjList2)
@@ -182,6 +160,11 @@ int main()
    // g.addEdge(2,3,false);
    // g.addEdge(1,3,false);
 
+  /*
+  Input for STRONGLY CONNECTED
+  Total vertex = 6 
+  1,2,3,4,5,6
+  */
   	g.addEdge(1,2,false);
   	g.addEdge(2,3,false);
   	g.addEdge(3,4,false);
