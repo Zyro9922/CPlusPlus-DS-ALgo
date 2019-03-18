@@ -6,7 +6,7 @@ Implementation explanation ( Coding Blocks ) : https://www.youtube.com/watch?v=N
 
 I know mine is kinds same (map X unordred_map) cause I saw his explanation then implemented and no way I was going to make the whole input
 
-CONTENT
+CONTENTS
 #Generic graph
 #Printing weighted graph
 #Dijksta for single source shortest path algorithm

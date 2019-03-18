@@ -20,10 +20,6 @@ class Graph{
 	map<T,list<pair<T,int>>> adjList;
 
 public:
-	Graph()
-	{
-		
-	}
 
 	void addEdge(T u, T v, int weight, bool bidir=true)
 	{
